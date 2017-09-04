@@ -20,7 +20,7 @@
     <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="assets/css/rss17-style.css" rel="stylesheet">
+    <link href="assets/css/icra18-style.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -39,6 +39,7 @@
 
     <nav class="navbar navbar-inverse navbar-default navbar-fixed-top">
       <div class="container">
+      <!--
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
@@ -48,6 +49,7 @@
           </button>
           <a class="navbar-brand" href="#">Representing a Complex World </br>ICRA 2018 Workshop</a>
         </div>
+        -->
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li><a href="#overview">Overview</a></li>
@@ -56,83 +58,72 @@
             <li><a href="#schedule">Schedule</a></li>
             <!--<li><a href="#posters">Posters</a></li>-->
             <li><a href="#organizers">Organizers</a></li>
-            <li><a href="#support">Travel Support</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <!--<li><a href="#support">Travel Support</a></li>-->
+            <!--<li><a href="#contact">Contact</a></li>-->
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
 
     <div class="container body">
+      <!--
       <div style="height:80px;"></div>
+      -->
       <div class="starter-template">
-        <img id="topimage" src="assets/fig/RSS17_WorkshopLogo.png">
+        <img id="topimage" src="assets/fig/rcw-icra18-logo.svg">
       </div>
+      <!--
       <div style="height:5px;"></div>
       <div class="starter-template">
         <img id="topimage" name="topimage" src="assets/fig/stata-center-5.4_crp.png">
       </div>
-
-        
+      -->
+      
       <div class="page-header" id="overview">
         <h1>Overview</h1>
       </div>
-        <p> Recent progress in Unmanned Aerial Vehicles (UAVs) has revealed great opportunities for use of small-scale UAVs in disaster response, environment monitoring, security and inspection. While reliable GPS-denied localization and safe, aggressive maneuvering have been successfully demonstrated, closing the loop between scene understanding and action planning remains an open problem. Deep learning has emerged as an especially promising way of extracting semantic meaning suitable for high-level autonomy. Learning techniques achieve the state-of-the-art performance in object recognition and natural language processing by replacing hand-engineered features with features that get automatically extracted from training data. Learning perception and control for autonomous flight can be approached in much the same way -- by replacing hand-engineered map representations with raw sensor observations and learning appropriate responses.</p>
+        <p> Intelligent autonomous systems hold significant promise to revolutionize industries such as transportation, agriculture, mining, construction, security and surveillance, and environmental monitoring. The effectiveness of an autonomous system in complex, unstructured environments, characteristic of these applications, depends critically on the system's ability to understand and model uncertain, dynamically changing operational conditions. Recent years have seen impressive progress in Simultaneous Localization And Mapping (SLAM), which has been instrumental for transitioning robots from the factory floor to unstructured environments. Indeed, state-of-the-art SLAM approaches can track the pose of a single camera and IMU over long trajectories in real time, while simultaneously providing an accurate dense metric reconstruction of the environment. Surprisingly, however, SLAM has advanced mostly in isolation from the recent equally impressive progress in object recognition, enabled by structured (deformable part) models and automated feature extraction via deep learning. Traditional SLAM relies on low-level geometric features and assumes specific distributional (e.g., near-linear Gaussian) models that are generally difficult to combine with discrete, semantic content. Few approaches combine spatial and semantic information, despite the tremendous scientific and practical promise of multimodal representations. The design and inference of representations that model dynamic, articulated, or deformable objects, or are neuroscience-inspired, and human-interpretable is even more compelling for expanding the capabilities of autonomous systems and bridging the gap between robot and human perception.</p>
 
-        
-        <p> The workshop will bring together researchers from robot planning and control, reinforcement learning and deep learning, and formal methods to examine the challenges and opportunities in learning perception and control for safe high-speed flight in unknown environments. Of particular interest is to investigate i) how to theoretically analyze the data and structure of learning systems to provide guarantees on safety and task success, and ii) what is the effect of long-term memory and, in particular, can recurrent connections or dynamic external memory replace global map information. The goal is to report on state-of-the-art approaches, identify open problems, and devise new principles to meet the challenges faced when applying deep learning to safety-critical planning tasks that incorporate timing and memory aspects.</p>
+        <p> The goal of this workshop is to bring together researchers from robotics, computer vision, machine learning, and neuroscience to examine the challenges and opportunities emerging from the design of representations that unify semantics, geometry, physics, as well as the development of novel perception, inference, and learning algorithms that can generate such representations in a human-interpretable manner. Of particular interest are: 1) novel representations that combine spatial, semantic, and temporal information, 2) contextual inference techniques that can produce maximum likelihood estimates over such hybrid multi-modal representations, 3) learning techniques that can produce cognitive representations directly from complex sensory inputs, 4) approaches that combine learning-based techniques with geometric estimation methods, 5) position papers, practical demonstrations, and unconventional ideas on how to reach human-level performance across the broad spectrum of perceptual problems arising in robotics.</p>
         
       <div class="page-header" id="speakers">
         <h1>Invited Speakers</h1>
       </div>
             
     <ul>
-        <li> <a href="https://www.microsoft.com/en-us/research/people/akapoor/" target="_blank">Ashish Kapoor</a> (Microsoft Research) </li>
-        <li> <a href="https://www.seas.upenn.edu/~ddlee/" target="_blank">Dan Lee</a> (University of Pennsylvania) </li>
-        <li> <a href="http://www.jan-peters.net/" target="_blank">Jan Peters</a> (TU Darmstadt) </li>
-        <li> <a href="http://ori.ox.ac.uk/mrg_people/ingmar-posner/" target="_blank">Ingmar Posner</a> (University of Oxford)</li>
-        <li> <a href="http://www.dynsyslab.org/prof-angela-schoellig/" target="_blank">Angela Schoellig</a> (University of Toronto)</li>
-        <!--<li> <a href="http://acds-lab.gatech.edu/" target="_blank">Evangelos Theodorou</a> (Georgia Tech) </li>-->
-        <li> <a href="http://www.cis.jhu.edu/~rvidal/" target="_blank">Rene Vidal</a> (Johns Hopkins University) </li> 
-        <li> <a href="http://www.jianxiongxiao.com/" target="_blank">Jianxiong Xiao</a> (AutoX) </li>   
+        <li> <a href="https://cs.gmu.edu/~kosecka/" target="_blank">Jana Kosecka</a> (George Mason University) </li>
+        <li> <a href="https://www.doc.ic.ac.uk/~ajd/" target="_blank">Andrew Davison</a> (Imperial College London) </li>
+        <li> <a href="http://www.tbd.edu/" target="_blank">TBD</a> (TBD) </li>
+        <li> <a href="http://www.tbd.edu/" target="_blank">TBD</a> (TBD) </li>
+        <li> <a href="http://www.tbd.edu/" target="_blank">TBD</a> (TBD) </li>
+        <li> <a href="http://www.tbd.edu/" target="_blank">TBD</a> (TBD) </li>
+        <li> <a href="http://www.tbd.edu/" target="_blank">TBD</a> (TBD) </li>
+        <li> <a href="http://www.tbd.edu/" target="_blank">TBD</a> (TBD) </li>
     </ul>
-        <!-- 
-        <li> Martial Hebert (CMU) </li>
-        --> 
-	    
 
       <div class="page-header" id="papers">
         <h1>Call for Contributions</h1>
       </div>         
-	<p> Participants are invited to submit abstracts related to key challenges in learning control for autonomous high-speed robotic flight. Topics of interest include but are not limited to:
-    </p>
-        
+	<p> Participants are invited to submit abstracts related to key challenges in perception, inference, and learning for generating rich environment models. Topics of interest include but are not limited to:</p>
+	
 	<ul>
-		<li> High-speed visual control of aerial vehicles </li> 
-		<li> Deep reinforcement learning for vision-based control of underactuated robots </li>
-		<li> Formal guarantees for learning based on neural networks </li> 
-		<li> Neural network architectures that involve temporal recurrence and memory </li>
-		<li> Learning of visuomotor policies and performance guarantees </li>
-		<li> Perception-action loops in challenging and dynamic environments </li>
+		<li> Topic 1 </li> 
+		<li> Topic 2 </li>
+		<li> Topic 3 </li> 
+		<li> Topic 4 </li>
+		<li> Topic 5 </li>
+		<li> Topic 6 </li>
 	</ul> 
 
-	We invite submissions in the form of extended abstracts (up to 2 pages) following RSS formatting guidelines. The abstracts will be reviewed by the organizers. Accepted contributions will be featured in a poster session or through spotlight presentations, and will be included in the workshop proceedings which will become available at the workshop website.<!--<a href="TODO" target="_blank">website</a>--> We encourage work-in-progress to be submitted and will take this into account in the review process.
+	We invite submissions in the form of extended abstracts (up to 4 pages) following ICRA formatting guidelines. The abstracts will be reviewed by the organizers. Accepted contributions will be featured in spotlight presentations and poster sessions, and will be included in the workshop proceedings which will become available at the workshop website.<!--<a href="TODO" target="_blank">website</a>--> We encourage work-in-progress to be submitted and will take this into account in the review process.
 
-	Submissions and questions should be directed to <b> <a href="mailto:learning.safe.flight.workshop@gmail.com" target="_top">learning.safe.flight.workshop@gmail.com</a> </b> by <b>June 15th 2017</b>. Please include <b>"RSS 2017 Abstract Submission"</b> in the subject of the email. Notifications of acceptance will be given by <b>June 30th 2017</b>.
+	Submissions and questions should be directed to <b> <a href="mailto:TODO@gmail.com" target="_top">TODO@gmail.com</a> </b> by <b>April 10th 2018</b>. Please include <b>"ICRA 2018 Abstract Submission"</b> in the subject of the email. Notifications of acceptance will be given by <b>April 21st 2018</b>.
  
 
     <!-- <a href="presentations/rss17.pdf" target="_blank">[pdf] -->
     <div class="page-header" id="schedule">
         <h1>Schedule</h1>
     </div> 
-        
-        <p style="margin-left: 2.em;padding: 2em 2em 2em 2em;border-width: 2px;">
-            Please complete this 
-            <b>
-            <a href="https://goo.gl/forms/ixwZXnttlwhSx5Xy2" target="_blank">Participation Form </a>
-            </b>!
-        </p>
-        
       <table style="width:98%">
         <tbody>  
           <tr>
@@ -145,15 +136,15 @@
           </tr>
           <tr>
             <td> 9:00 - 9:30 </td>
-            <td> Ashish Kapoor </td>
+            <td> TBD </td>
           </tr>
           <tr>
             <td> 9:30 - 10:00 </td>
-            <td> Dan Lee </td>
+            <td> TBD </td>
           </tr>
           <tr>
             <td> 10:00 - 10:30 </td>
-            <td> Angela Schoellig </td>
+            <td> TBD </td>
           </tr>
           <tr>
               <!-- -->
@@ -163,11 +154,11 @@
               <!-- -->
           <tr>
             <td> 11:00 - 11:30 </td>
-            <td> Ingmar Posner </td>
+            <td> TBD </td>
           </tr>
             <tr>
             <td> 11:30 - 12:00 </td>
-            <td> Rene Vidal </td>
+            <td> TBD </td>
           </tr>
               <!-- -->
           <tr>
@@ -177,11 +168,11 @@
               <!-- -->
           <tr>
             <td> 2:00 - 2:30 </td>
-            <td> Jianxiong Xiao </td>
+            <td> TBD </td>
           </tr>
             <tr>
             <td> 2:30 - 3:00 </td>
-            <td> Jan Peters </td>
+            <td> TBD </td>
           </tr>
               <!-- -->
           <tr>
@@ -195,8 +186,14 @@
           </tr>
         </tbody>
       </table>
-    
-
+        <!--
+        <p style="margin-left: 2.em;padding: 2em 2em 2em 2em;border-width: 2px;">
+            Please complete this 
+            <b>
+            <a href="https://goo.gl/forms/ixwZXnttlwhSx5Xy2" target="_blank">Participation Form </a>
+            </b>!
+        </p>
+        -->
       <!--
       <div class="page-header" id="posters">
         <h1>Posters</h1>
@@ -210,30 +207,32 @@
       <div class="page-header" id="organizers">
         <h1>Organizers</h1>
       </div>
-          <a href="https://sites.google.com/site/kkaryd/" target="_blank">Kostas Karydis</a> <br>
-          <a href="http://www.seas.upenn.edu/~atanasov/" target="_blank">Nikolay Atanasov</a> <br>
-          <a href="https://people.eecs.berkeley.edu/~svlevine/" target="_blank">Sergey Levine</a> <br>
-          <a href="http://groups.csail.mit.edu/rrg/" target="_blank">Nick Roy</a> <br>
-          <a href="https://people.eecs.berkeley.edu/~tomlin/" target="_blank">Claire Tomlin</a> <br>
-          <a href="http://www.kumarrobotics.org/" target="_blank">Vijay Kumar</a> <br>
-
+      <ul>
+        <li><a href="https://natanaso.github.io/" target="_blank">Nikolay Atanasov</a> &ltnatanasov@ucsd.edu&gt</li>
+        <li><a href="https://www.lucacarlone.com/" target="_blank">Luca Carlone</a> &ltlcarlone@mit.edu&gt</li>
+      </ul>
+      Should you have any questions please contact the organizers via email.
+      
+      <!--
       <div class="page-header" id="support">
         <h1>Travel Support</h1>
       </div>
         Through the generous support of the National Science Foundation, we are happy to announce that the workshop will be able to offer travel mini-awards to <b>U.S.-based workshop contributors</b> to partially cover travel expenses.  All workshop contributors are eligible, and are strongly encouraged to apply for a travel mini-award.  The number of mini-awards to be made available is, however, limited.  Priority will be given to workshop contributors from communities underrepresented in STEM, and/or HBCU/MSI-accredited Universities.  More information will be added soon, please stay tuned!
-        
+
         <div class="page-header" id="contact">
         <h1>Contact</h1>
       </div>
         Should you have any questions please contact the organizers via <a href="mailto:learning.safe.flight.workshop@gmail.com" target="_top">email.</a>
+      -->
         <!--</br></br></br></br> -->
         
+        <!--
         <div class="page-header">
             <div style="height:40px;"></div>
             <h3>Workshop supported by:</h3>
         <img id="thanksimage" src="assets/fig/nsf.png">
-      </div>
-
+        </div>
+        -->
     </div><!-- /.container -->
 
 
