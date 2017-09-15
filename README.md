@@ -3,4 +3,7 @@ ICRA 2018 Workshop ["Representing a Complex World: Perception, Inference, and Le
 
  + Google folder: https://drive.google.com/drive/u/3/folders/0BzieNZwC7qCKRjRjSTBFcTZ6VlE/
  + Googledoc: https://docs.google.com/document/d/1Qm7c6s6O5uFkxUurjqELsUDPiRp8yRyfR4ISMNbnVw0/
+ + keywords: SLAM, Semantic Scene Understanding, Sensor Fusion
+
+
 
