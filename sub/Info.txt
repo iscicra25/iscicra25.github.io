@@ -1,0 +1,14 @@
+Title: Representing a Complex World: Perception, Inference, and Learning for Joint Semantic, Geometric, and Physical Understanding
+
+Authors:
+Nikolay Atanasov
+Luca Carlone
+
+Keywords:
+1. SLAM 
+2. Semantic Scene Understanding
+3. Sensor Fusion
+
+Abstract:
+This workshop brings together researchers from robotics, computer vision, machine learning, and neuroscience to examine the challenges and opportunities emerging from the design of world representations that unify semantics, geometry, and physics. The capability of jointly modeling and understanding these aspects is a prerequisite for autonomous operation in complex, unstructured environments. Recent years have seen impressive progress in Simultaneous Localization And Mapping (SLAM), which has been instrumental in transitioning robots from the factory floor to unstructured environments. Indeed, state-of-the-art SLAM approaches can track the pose of a single camera and IMU over long trajectories in real time, while simultaneously providing an accurate dense metric reconstruction of the environment. Surprisingly, however, SLAM has advanced mostly in isolation from the recent equally impressive progress in object recognition and scene understanding, enabled by structured (deformable part) models and deep learning. Few approaches combine spatial and semantic information, despite the tremendous scientific and practical promise of multimodal representations. This workshop aims to bring forward the latest breakthroughs and cutting-edge research on new multimodal representations, as well as novel perception, inference, and learning algorithms that can generate such representations.
+
