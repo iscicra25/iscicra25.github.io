@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">    
-    <meta name="keywords" content="SLAM,perception,deep learning,robots,workshop,ICRA,International Conference on Robotics and Automation">
+    <meta name="keywords" content="SLAM, perception, deep learning, robots, workshop, ICRA, International Conference on Robotics and Automation">
     <meta name="author" content="Nikolay Atanasov, Luca Carlone">
     <link rel="icon" href="favicon.ico">
 
@@ -53,13 +53,13 @@
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li><a href="#overview">Overview</a></li>
+            <li><a href="#awards">Call for Papers</a></li>
             <li><a href="#speakers">Invited Speakers</a></li>
-            <li><a href="#papers">Call for Contributions</a></li>
             <li><a href="#schedule">Schedule</a></li>
             <!--<li><a href="#posters">Posters</a></li>-->
-            <li><a href="#organizers">Organizers</a></li>
+            <li><a href="#organizers">Committees</a></li>
+            <li><a href="#contact">Contact</a></li>
             <!--<li><a href="#support">Travel Support</a></li>-->
-            <!--<li><a href="#contact">Contact</a></li>-->
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -79,17 +79,67 @@
       </div>
       -->
       
+      
+      <!------------------ Overview ---------------------------->
       <div class="page-header" id="overview">
         <h1>Overview</h1>
       </div>
-        <p> Intelligent autonomous systems hold significant promise to revolutionize industries such as transportation, agriculture, mining, construction, security and surveillance, and environmental monitoring. The effectiveness of an autonomous system in complex, unstructured environments, characteristic of these applications, depends critically on the system's ability to understand and model uncertain, dynamically changing operational conditions. Recent years have seen impressive progress in Simultaneous Localization And Mapping (SLAM), which has been instrumental for transitioning robots from the factory floor to unstructured environments. Indeed, state-of-the-art SLAM approaches can track the pose of a single camera and IMU over long trajectories in real time, while simultaneously providing an accurate dense metric reconstruction of the environment. Surprisingly, however, SLAM has advanced mostly in isolation from the recent equally impressive progress in object recognition, enabled by structured (deformable part) models and automated feature extraction via deep learning. Traditional SLAM relies on low-level geometric features and assumes specific distributional (e.g., near-linear Gaussian) models that are generally difficult to combine with discrete, semantic content. Few approaches combine spatial and semantic information, despite the tremendous scientific and practical promise of multimodal representations. The design and inference of representations that model dynamic, articulated, or deformable objects, or are neuroscience-inspired, and human-interpretable is even more compelling for expanding the capabilities of autonomous systems and bridging the gap between robot and human perception.</p>
+        <p> The goal of this workshop is to bring together researchers from robotics, computer vision, machine learning, and neuroscience to examine the challenges and opportunities emerging from the design of environment representations and perception algorithms that unify semantics, geometry, and physics. This goal is motivated by two fundamental observations. First, the development of advanced perception and world understanding is a key requirement for robot autonomy in complex, unstructured environments, and an enabling technology for robot use in transportation, agriculture, mining, construction, security, surveillance, and environmental monitoring. Second, despite the unprecedented progress over the past two decades, there is still a large gap between robot and human perception (e.g., expressiveness of representations, robustness, latency). The workshop aims to bring forward the latest breakthroughs and cutting-edge research on multimodal representations, as well as novel perception, inference, and learning algorithms that can generate such representations. </p>
 
-        <p> The goal of this workshop is to bring together researchers from robotics, computer vision, machine learning, and neuroscience to examine the challenges and opportunities emerging from the design of representations that unify semantics, geometry, physics, as well as the development of novel perception, inference, and learning algorithms that can generate such representations in a human-interpretable manner. Of particular interest are: 1) novel representations that combine spatial, semantic, and temporal information, 2) contextual inference techniques that can produce maximum likelihood estimates over such hybrid multi-modal representations, 3) learning techniques that can produce cognitive representations directly from complex sensory inputs, 4) approaches that combine learning-based techniques with geometric estimation methods, 5) position papers, practical demonstrations, and unconventional ideas on how to reach human-level performance across the broad spectrum of perceptual problems arising in robotics.</p>
+    <ul>
+        <li> The workshop will include keynote presentations from established researchers in robotics, machine learning, computer vision, human and animal perception. </li>
+        <li> There will be two panel discussions and two poster sessions highlighting contributed papers throughout the day. </li>
+        <li> There will be a demo session including exciting live demos (<b>best demo takes home a monetary prize</b> - see below). </li>
+    </ul>
+    
+    <p> The workshop is endorsed by the <a href="http://www.ieee-ras.org/computer-robot-vision">IEEE RAS Technical Committee for Computer & Robot Vision</a>. </p>
+    
+    
+      <!------------------ Awards ---------------------------->
+      <div class="page-header" id="awards">
+        <h1>Awards</h1>
+      </div>
+        <p> To encourage rigorous innovative submissions, this year we plan to award a monetary prize for the best paper and the best demo presented during the workshop. Quality and impact of the submissions will be evaluated by the program committee. More details about the award will be given shortly. </p>
         
+      
+      <!------------------ CfP ---------------------------->
+      <div class="page-header" id="papers">
+        <h1>Call for Papers</h1>
+      </div>         
+	<p> Participants are invited to submit a <b>full paper</b> (following <a href="http://icra2018.org/call-for-papers">ICRA formatting guidelines</a>) or an <b>extended abstract</b> (up to 2 pages) related to key challenges in unified geometric, semantic, topological, and temporal representations, and associated perception, inference, and learning algorithms. Topics of interest include but are not limited to: </p>
+
+	<ul>
+		<li> novel representations that combine geometry, semantics, and physics, and allow reasoning over spatial, semantic, and temporal aspects; </li>
+		<li> contextual inference techniques that produce maximum likelihood estimates over hybrid multi-modal representations; </li>
+		<li> learning techniques that produce cognitive representations directly from complex sensory inputs; </li>
+		<li> approaches that combine learning-based techniques with geometric estimation methods; </li>
+		<li> position papers and unconventional ideas on how to reach human-level performance across the broad spectrum of perceptual problems arising in robotics. </li>
+	</ul>
+
+  <p> Contributed papers will be reviewed by the organizers and a program committee of invited reviewers. Accepted papers will be published on the workshop website and will be featured in spotlight presentations and poster sessions. We strongly encourage the preparation of live demos to accompany the papers. We plan to select the best submissions and invite the authors of these papers to contribute to a special issue on the <a href="http://www.ieee-ras.org/publications/t-ro">IEEE Transactions on Robotics</a>, related to the topic of the workshop. </p>
+
+	<p> <b>Submission link</b>: <a href="https://easychair.org/conferences/?conf=icramrp18">https://easychair.org/conferences/?conf=icramrp18</a> </p>      
+      
+      <!------------------ CfP ---------------------------->
+      <div class="page-header" id="dates">
+        <h1>Important Dates</h1>
+      </div>
+    <ul>
+        <li> <b>Submission Deadline</b>: March 25, 2018. </li>
+        <li> <b>Notification of Acceptance</b>: April 25, 2018. </li>
+        <li> <b>Workshop Date</b>: May 21, 2018. </li>
+    </ul>
+      
+      
+      <!------------------ Speakers ---------------------------->
+      <div class="page-header" id="speakers">
+        <h1>Participation</h1>
+      </div>
+      <p> We plan to have a broad participation from the robotics community through the <a href="https://plus.google.com/communities/102832228492942322585">MultimodalRobotPerception Google Community</a>. Feel free to post thought-provoking questions and ideas related to joint metric-semantic-physical perception. The posts will be moderated by the organizers and addressed by the invited speakers during the workshop. </p>
+
       <div class="page-header" id="speakers">
         <h1>Invited Speakers</h1>
-      </div>
-            
+      </div>      
     <ul>
         <li> <a href="https://cs.gmu.edu/~kosecka/">Jana Kosecka</a> (George Mason University) </li>
         <li> <a href="https://homes.cs.washington.edu/~fox/">Dieter Fox</a> (University of Washington) </li>
@@ -100,22 +150,6 @@
         <li> <a href="https://www.inf.ethz.ch/personal/marc.pollefeys/">Marc Pollefeys</a> (ETH Zurich) </li>
     </ul>
 
-      <div class="page-header" id="papers">
-        <h1>Call for Contributions</h1>
-      </div>         
-	<p> Participants are invited to submit extended abstracts (up to 5 pages, following ICRA formatting guidelines) related to key challenges in unified geometric, semantic, topological, and physical representations, and associated perception, inference, and learning algorithms. Topics of interest include but are not limited to:</p>
-
-	<ul>
-		<li> novel representations that combine geometry, semantics, and physics, and allow reasoning over spatial, semantic, and temporal aspects; </li>
-		<li> contextual inference techniques that can produce maximum likelihood estimates over such hybrid multi-modal representations; </li>
-		<li> learning techniques that can produce cognitive representations directly from complex sensory inputs; </li>
-		<li> approaches that combine learning-based techniques with geometric estimation methods; </li>
-		<li> position papers and unconventional ideas on how to reach human-level performance across the broad spectrum of perceptual problems arising in robotics. </li>
-	</ul>
-
-  <p>Contributed papers will be reviewed by the organizers and a program committee of invited reviewers. Accepted papers will be featured through spotlight presentations, poster sessions, and live demos! Camera-ready versions of the accepted papers will be published on the workshop website and compiled into a single PDF file to serve as the workshop's proceedings. Invited speakers, contributing authors, and participants will receive a copy of the proceedings via email.</p>
-
-	<p>Submissions and questions should be directed to <b><a href="mailto:natanasov@ucsd.edu" target="_top">natanasov@ucsd.edu</a></b> by <b>April 10th 2018</b>. Please include <b>"ICRA 2018 Abstract Submission"</b> in the subject of the email. Notifications of acceptance will be given by <b>April 21st 2018</b>.</p>
  
     <!-- <a href="presentations/rss17.pdf" target="_blank">[pdf] -->
     <div class="page-header" id="schedule">
@@ -161,7 +195,7 @@
           </tr>
           <tr>
             <td> 1:30 - 2:00 </td>
-            <td> Invited talk: <a href="https://www.doc.ic.ac.uk/~ajd/">Andrew Davison</a> (<b>Confirmed</b>) </td>
+            <td> Invited talk: <a href="https://www.doc.ic.ac.uk/~ajd/">Andrew Davison</a> (Tentative) </td>
           </tr>
           <tr>
             <td> 2:00 - 2:30 </td>
@@ -207,14 +241,33 @@
       Title <a href="title.pdf" target="_blank">[pdf]</a></br>
       Author </br>                
       -->
+      
+      
+      <!------------ Program Committee 
+      <div class="page-header" id="pc">
+        <h1>Program Committee</h1>
+      </div>
+      <ul>
+        <li><a href="https://natanaso.github.io/">Nikolay Atanasov</a> &ltnatanasov@ucsd.edu&gt</li>
+        <li><a href="https://www.lucacarlone.com/">Luca Carlone</a> &ltlcarlone@mit.edu&gt</li>
+      </ul>      
+      ----------->
+      
+      <!------------ Organizing Committee ----------->
       <div class="page-header" id="organizers">
-        <h1>Organizers</h1>
+        <h1>Organizing Committee</h1>
       </div>
       <ul>
         <li><a href="https://natanaso.github.io/">Nikolay Atanasov</a> &ltnatanasov@ucsd.edu&gt</li>
         <li><a href="https://www.lucacarlone.com/">Luca Carlone</a> &ltlcarlone@mit.edu&gt</li>
       </ul>
-      Should you have any questions please contact the organizers via email.
+      
+      <!------------ Contact ----------->
+      <div class="page-header" id="contact">
+        <h1>Contact</h1>
+      </div>
+      <p> Should you have any questions, please do not hesitate to contact the organizers Nikolay Atanasov (natanasov@ucsd.edu) or Luca Carlone (lcarlone@mit.edu). Please include ``ICRA 2018 Workshop Submission'' in the subject of the email. </p>
+      
       
       <!--
       <div class="page-header" id="support">
