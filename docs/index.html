@@ -33,6 +33,19 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
+    <script type="text/javascript">
+    <!--
+    function toggleAbstract(divid) {
+      var x = document.getElementById(divid);
+      if (x.style.display === "none") {
+          x.style.display = "block";
+      } else {
+          x.style.display = "none";
+      }
+    }
+    -->
+  </script>    
   </head>
 
   <body>
@@ -53,9 +66,9 @@
           <ul class="nav navbar-nav">
             <li><a href="#overview">Overview</a></li>
             <li><a href="#awards">Call for Papers</a></li>
+            <li><a href="#dates">Location</a></li>
             <li><a href="#speakers">Invited Speakers</a></li>
             <li><a href="#schedule">Schedule</a></li>
-            <!--<li><a href="#posters">Posters</a></li>-->
             <li><a href="#organizers">Committees</a></li>
             <li><a href="#contact">Contact</a></li>
             <!--<li><a href="#support">Travel Support</a></li>-->
@@ -69,7 +82,7 @@
       <div style="height:80px;"></div>
       -->
       <div class="starter-template">
-        <img id="topimage" src="assets/fig/rcw-icra18-logo.svg">
+        <img id="topimage" src="assets/fig/icra-mrp18-logo.svg">
       </div>
       <!--
       <div style="height:5px;"></div>
@@ -157,6 +170,9 @@
     </ul>
 
  
+ 
+ 
+ 
     <!-- <a href="presentations/rss17.pdf" target="_blank">[pdf] -->
     <div class="page-header" id="schedule">
         <h1>Schedule</h1>
@@ -169,67 +185,136 @@
           </tr>
             <tr>
                 <td> 8:45 - 9:00 </td>
-            <td> Registration, welcome, and opening remarks </td>
+                <td><strong>Registration, welcome, and opening remarks</strong></td>
           </tr>
           <tr>
             <td> 9:00 - 9:30 </td>
-            <td> Invited talk: <a href="https://scholar.google.com/citations?user=TDSmCKgAAAAJ">Michael Milford</a></td>
+            <td> 
+            <p><strong>Invited talk:</strong> <a href="https://scholar.google.com/citations?user=TDSmCKgAAAAJ">Michael Milford</a> (Queensland University of Technology)<br/>
+            <a href="javascript:toggleAbstract('Michael_Milford')">Adventures in multi-modal, sometimes bio-inspired perception, mapping and navigation for robots and autonomous vehicles</a></p>
+            <div id="Michael_Milford" style="display:none">
+            <p><strong>Abstract:</strong> I'll take the audience on a whirlwind tour of 15 years of research pushing the boundaries on multi-modal perception and sensing in a mapping and navigation context. I'll cover our forays into biologically inspired sensing and mapping, and touch on some of the opportunities and challenges we faced along the way, including translating the work into applied industrial outcomes. The field is still open for more innovation and we hope the workshop will be a great provocation for discussion and collaboration!</p>
+            </div>
+            </td>
+
+            
           </tr>
           <tr>
             <td> 9:30 - 10:00 </td>
-            <td> Invited talk: <a href="https://cs.gmu.edu/~kosecka/">Jana Kosecka</a></td>
+            <td><strong>Invited talk:</strong> <a href="https://cs.gmu.edu/~kosecka/">Jana Kosecka</a> (George Mason University)</td>
           </tr>
           <tr>
             <td> 10:00 - 10:30 </td>
-            <td> Poster Spotlights </td>
+            <td><strong>Poster Spotlights</strong><br/>
+            <ul>
+              <li>A. Gawel, C. Del Don, R. Siegwart, J. Nieto, C. Cadena<br/>
+                  <a href="">"X-View: Graph-Based Semantic Multi-View"</a>
+              <li>B. Bescos, J. Facil, J. Civera, J. Neira<br/>
+                  <a href="">"Detecting, Tracking and Eliminating Dynamic Objects in 3D Mapping using Deep Learning and Inpainting"</a>
+              <li>A. Loquercio, D. Scaramuzza<br/>
+                  <a href="">"Learning to Control Drones in Natural Environments: A Survey"</a>
+              <li>O. Roesler, A. Aly, T. Taniguchi, Y. Hayashi<br/>
+                  <a href="">"A Probabilistic Framework for Syntactic and Semantic Grounding of Synonyms through Cross-Situational Learning"</a>
+              <li>A. Milioto, C. Stachniss<br/>
+                  <a href="">"Bonnet: An Open-Source Training and Deployment Framework for Semantic Segmentation in Robotics using CNNs"</a>
+              <li>F. Nardi, B. Della Corte, G. Grisetti<br/>
+                  <a href="">"Unified Representation of Heterogeneous Sets of Geometric Primitives"</a>
+              <li>W. Vega-Brown, N. Roy<br/>
+                  <a href="">"Admissible abstractions for near-optimal task and motion planning"</a>
+              <li>C. Grimm, R. Balasubramanian, M. Sundberg, R. Sherman, A. Kothari, R. Hatton<br/>
+                  <a href="">"A Grasping Metric based on Hand-Object Collision"</a>
+              <li>S. Daftry, Y. Agrawal, L. Matthies<br/>
+                  <a href="">"Online Self-supervised Scene Segmentation for Micro Aerial Vehicles"</a>
+              <li>L. Nicholson, M. Milford, N. Suenderhauf<br/>
+                  <a href="">"QuadricSLAM: Constrained Dual Quadrics from Object Detections as Landmarks in Semantic SLAM"</a>
+              <li>P. Karkus, D. Hsu, W. S. Lee<br/>
+                  <a href="">"Particle Filter Networks: End-to-End Probabilistic Localization From Visual Observations"</a>
+            </ul>
+            </td>
           </tr>
           <tr>
             <td> 10:30 - 11:00 </td>
-            <td> Coffee break </td>
+            <td> <strong>Coffee break</strong> </td>
           </tr>
           <tr>
             <td> 11:00 - 11:30 </td>
-            <td> Poster Spotlights </td>
+            <td><strong>Poster Spotlights</strong><br/>
+            <ul>
+              <li>M. Henein, G. Kennedy, V. Ila, R. Mahony<br/>
+                  <a href="">"Exploiting Rigid Body Motion for SLAM in Dynamic Environments with Applications in Urban Driving and Extrinsic Calibration of a Multi RGBD Camera System"</a>
+              <li>J. Park, D. Manocha<br/>
+                  <a href="">"Combining Computer Vision and Real Time Motion Planning for Human-Robot Interaction"</a>
+              <li>R. Mahjourian, M. Wicke, A. Angelova<br/>
+                  <a href="">"Unsupervised Learning of Depth and Ego-Motion from Monocular Video in 3D"</a>
+              <li>J. Weibel, T. Patten, M. Vincze<br/>
+                  <a href="">"Geometric Priors from Robot Vision in Deep Networks for 3D Object Classification"</a>
+              <li>M. Sundermeyer, E. Y. Puang, Z. Marton, M. Durner, R. Triebel<br/>
+                  <a href="">"Learning Implicit Representations of 3D Object Orientations from RGB"</a>
+              <li>A. Inceoglu, G. Ince, Y. Yaslan, S. Sariel<br/>
+                  <a href="">"Comparative Assessment of Sensing Modalities on Manipulation Failure Detection"</a>
+              <li>J. Bowkett, J. Burdick, L. Matthies, R. Detry<br/>
+                  <a href="">"Semantic Understanding of Task Outcomes: Visually Identifying Failure Modes Autonomously Discovered in Simulation"</a>
+              <li>Y. Feldman, V. Indelman<br/>
+                  <a href="">"Towards Robust Autonomous Semantic Perception"</a>
+              <li>T. Mota, M. Sridharan<br/>
+                  <a href="">"Incrementally Grounding Expressions for Spatial Relations between Objects"</a>
+              <li>B. X. Chen, R. Sahdev, D. Wu, X. Zhao, M. Papagelis, J. K. Tsotsos<br/>
+                  <a href="">"Scene Classification in Indoor Environments for Robots using Context Based Word Embeddings"</a>
+              <li>K. Desingh, A. Opipary, O. Jenkins<br/>
+                  <a href="">"Analysis of Goal-directed Manipulation in Clutter using Scene Graph Belief Propagation"</a>
+            </ul>
+            </td>
           </tr>          
           <tr>
             <td> 11:30 - 12:00 </td>
-            <td> Invited talk: <a href="https://cs.adelaide.edu.au/~ianr/">Ian Reid</a></td>
+            <td> <strong>Invited talk:</strong> <a href="https://cs.adelaide.edu.au/~ianr/">Ian Reid</a> (University of Adelaide)</td>
           </tr>
             <tr>
             <td> 12:00 - 12:30 </td>
-            <td> Morning wrap-up: panel discussion </td>
+            <td> <strong>Morning wrap-up: panel discussion</strong> </td>
           </tr>
           <tr>
             <td> 12:30 - 2:00 </td>
-            <td> Lunch break </td>
+            <td> <strong>Lunch break</strong> </td>
           </tr>
           <tr>
             <td> 2:00 - 2:30 </td>
-            <td> Invited talk: <a href="https://homes.cs.washington.edu/~fox/">Dieter Fox</a> / <a href="https://homes.cs.washington.edu/~barun/">Arun Byravan</a></td>
+            <td> <strong>Invited talk:</strong> <a href="https://homes.cs.washington.edu/~fox/">Dieter Fox</a> / <a href="https://homes.cs.washington.edu/~barun/">Arun Byravan</a> (University of Washington)</td>
           </tr>
           <tr>
             <td> 2:30 - 3:00 </td>
-            <td> Invited talk: <a href="https://qbi.uq.edu.au/profile/613/srini-srinivasan/">Srini Srinivasan</a></td>
+            <td><p><strong>Invited talk:</strong> <a href="https://qbi.uq.edu.au/profile/613/srini-srinivasan/">Srini Srinivasan</a> (Queensland Brain Institute)<br/>
+            <a href="javascript:toggleAbstract('Srini_Srinivasan')">Facets of vision, perception, learning and `cognition' in a small brain</a></p>
+            <div id="Srini_Srinivasan" style="display:none">
+            <p><strong>Abstract:</strong> Honeybees possess a brain about the size of a sesame seed, and yet display surprisingly sophisticated performance in tasks that involve pattern recognition, maze learning, establishing complex associations and learning abstract concepts. This presentation will highlight some of these capacities, and invite speculation on how these tasks might be implemented effectively in what must be relatively simple neural hardware.</p>
+            </div>
+            </td>
           </tr>
           <tr>
             <td> 3:00 - 3:30 </td>
-            <td> Coffee break & Poster Session </td>
+            <td> <strong>Coffee break & Poster Session</strong> </td>
           </tr>
           <tr>
             <td> 3:30 - 4:00 </td>
-            <td> Poster and demo session </td>
+            <td> <strong>Poster and demo session</strong> </td>
           </tr>          
           <tr>
             <td> 4:00 - 4:30 </td>
-            <td> Invited talk: <a href="http://people.inf.ethz.ch/sattlert/">Torsten Sattler</a></td>
+            <td><p><strong>Invited talk:</strong> <a href="http://people.inf.ethz.ch/sattlert/">Torsten Sattler</a> (ETH Zurich)<br/>
+            <a href="javascript:toggleAbstract('Torsten_Sattler')">Challenges in Long-Term Visual Localization</a></p>
+            <div id="Torsten_Sattler" style="display:none">
+            <p><strong>Abstract:</strong> Visual localization is the problem of estimating the position and orientation from which an image was taken with respect to a 3D model of a known scene. This problem has important applications, including autonomous vehicles (including self-driving cars and other robots) and augmented / mixed / virtual reality. While multiple solutions to the visual localization problem exist both in the Robotics and Computer Vision communities for accurate camera pose estimation, they typically assume that the scene does not change over time. However, this assumption is often invalid in practice, both in indoor and outdoor environments. This talk thus briefly discusses the challenges encountered when trying to localize images over a longer period of time. Next, we show how a combination of 3D scene geometry and higher-level scene understanding can help to enable visual localization in conditions where both classical and recently proposed learning-based approaches struggle.</p>
+            </div>
+            </td>
+            
           </tr>
           <tr>
             <td> 4:30 - 5:00 </td>
-            <td> Afternoon wrap-up: panel discussion & closing remarks </td>
+            <td> <strong>Afternoon wrap-up: panel discussion & closing remarks</strong> </td>
           </tr>    
           <tr>
             <td> 5:00 - 5:15 </td>
-            <td> Award ceremony </td>
+            <td> <strong>Award ceremony</strong> </td>
           </tr>             
         </tbody>
       </table>
