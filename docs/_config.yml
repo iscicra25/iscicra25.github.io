@@ -6,7 +6,6 @@ author:
 description: > # this means to ignore newlines until "show_excerpts:"
   Coming soon
 
-source: docs
 timezone: null
 lsi: false
 markdown: kramdown
