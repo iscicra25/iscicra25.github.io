@@ -77,28 +77,20 @@
     </nav>
 
     <div class="container body">
-      <!--
-      <div style="height:80px;"></div>
-      -->
       <div class="starter-template">
         <img id="topimage" src="assets/fig/icra2020-banner.jpg">
       </div>
-      <!--
-      <div style="height:5px;"></div>
-      <div class="starter-template">
-        <img id="topimage" name="topimage" src="assets/fig/stata-center-5.4_crp.png">
-      </div>
-      -->
-      
-      
-      <!------------------ Overview ---------------------------->
-          {% for node in site.posts reversed %}
-          {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
-          <div class="page-header" id="{{id}}">
-              <h1>{{ node.title }}</h1>
-          </div>
-          {{ node.content }}
-          {% endfor %}
+
+      <!-- Main content
+           ================================================== -->
+
+        {% for node in site.posts reversed %}
+        {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
+        <div class="page-header" id="{{id}}">
+            <h1>{{ node.title }}</h1>
+        </div>
+        {{ node.content }}
+        {% endfor %}
 
 
     <!-- Bootstrap core JavaScript
