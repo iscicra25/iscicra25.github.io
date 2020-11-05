@@ -116,3 +116,6 @@ td:last-child {
   visibility: hidden; 
 }
 
+ol li ol {
+    list-style-type: lower-alpha
+}
