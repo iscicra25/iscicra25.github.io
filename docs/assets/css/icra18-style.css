@@ -108,6 +108,7 @@ td:last-child {
 	font-size:31px;
 }
 
+/*
 *[id]:before { 
   display: block; 
   content: " "; 
@@ -115,7 +116,13 @@ td:last-child {
   height: 75px; 
   visibility: hidden; 
 }
+*/
 
 ol li ol {
     list-style-type: lower-alpha
+}
+
+.footnotes ol li p {
+    font-size:small;
+    color: rgb(130, 130, 130);
 }
