@@ -16,7 +16,7 @@ title: "Organizers"
 
 
 <li> <a href="https://vikasdhiman.info">
-<div> <img src="assets/fig/vdhiman.png" class="speaker-mugshot"/> </div>
+<div> <img src="assets/fig/vdhiman.jpg" class="speaker-mugshot"/> </div>
 <span>Vikas Dhiman</span> </a>
 <tt> vdhiman@ucsd.edu </tt>
 </li>
