@@ -142,6 +142,15 @@ ol li ol {
     list-style: none;
 }
 
+.index-key .index-key-box .index-key-right ul.program-committee li{
+    width: 15%;
+    float: left;
+    margin-right: 2%;
+    text-align: center;
+    margin-bottom: 8%;
+    list-style: none;
+}
+
 .index-key .index-key-box .index-key-right ul li:nth-of-type(4n){margin-right: 0;}
 .index-key .index-key-box .index-key-right ul li>a{display: block;overflow: hidden;}
 .index-key .index-key-box .index-key-right ul li>a>div{margin-bottom: 13px;}
@@ -153,6 +162,7 @@ ol li ol {
 
 @media (max-width:750px){
     .index-key .index-key-box .index-key-right ul li {width: 49%;margin-bottom: 6%;}
+    .index-key .index-key-box .index-key-right ul.program-committee li {width: 49%; margin-bottom: 6%;}
     .index-key .index-key-box .index-key-right ul li:nth-of-type(2n){margin-right: 0;}
     .index-key .index-key-box{margin-top: 20px;}
     .index-key .index-key-box .index-key-right ul li>a i{font-size: 14px;line-height: 21px;}

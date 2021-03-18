@@ -32,4 +32,4 @@ title: "Organizers"
 </div>
 </div>
 </div>
-<div style="clear:both" ></div>
+<div style="clear: both" ></div>
