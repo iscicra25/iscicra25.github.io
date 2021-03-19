@@ -32,7 +32,7 @@ title: "Program Committee"
 
 <li> <a href="http://flyingv.ucsd.edu/abel/">
 <div> <img src="assets/fig/abel.jpg" class="speaker-mugshot"/> </div>
-<span>Abel Imoleayo</span><i>UC San Diego</i>
+<span>Imoleayo Abel</span><i>UC San Diego</i>
 </a></li>
 
 <li> <a href="http://carmenere.ucsd.edu/pio/">
