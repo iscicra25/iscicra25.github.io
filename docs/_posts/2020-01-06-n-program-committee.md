@@ -40,6 +40,11 @@ title: "Program Committee"
 <span>Pio Ong</span><i>UC San Diego</i>
 </a></li>
 
+<li> <a href="https://acsweb.ucsd.edu/~mkhojast/index.html">
+<div> <img src="mjkhojasteh.jpg" class="speaker-mugshot"/> </div>
+<span>MJ Khojasteh</span><i>MIT</i>
+</a></li>
+
 </ul>
 </div>
 </div>

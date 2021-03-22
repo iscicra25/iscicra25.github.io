@@ -33,3 +33,6 @@ title: "Organizers"
 </div>
 </div>
 <div style="clear: both" ></div>
+
+## Contact
+Should you have any questions, please do not hesitate to contact the organizers Vikas Dhiman (vdhiman@ucsd.edu) or Shumon Koga (skoga@ucsd.edu). Please include ``ICRA 2021 Workshop`` in the subject of the email. 
