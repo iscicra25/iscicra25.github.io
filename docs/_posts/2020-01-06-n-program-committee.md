@@ -41,7 +41,7 @@ title: "Program Committee"
 </a></li>
 
 <li> <a href="https://acsweb.ucsd.edu/~mkhojast/index.html">
-<div> <img src="mjkhojasteh.jpg" class="speaker-mugshot"/> </div>
+<div> <img src="assets/fig/mjkhojasteh.jpg" class="speaker-mugshot"/> </div>
 <span>MJ Khojasteh</span><i>MIT</i>
 </a></li>
 
