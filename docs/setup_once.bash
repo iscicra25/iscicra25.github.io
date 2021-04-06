@@ -1,1 +1,1 @@
-bundler install
+bundler install --path $HOME/.local/gems
