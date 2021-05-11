@@ -24,7 +24,7 @@ title: "Program Committee"
 <span>Kelsey Allen</span><i>MIT</i>
 </a></li>
 
-<li> <a href="http://cfan10.web.engr.illinois.edu/">
+<li> <a href="https://chuchu.mit.edu">
 <div> <img src="assets/fig/ChuchuFan-300x201.jpeg" class="speaker-mugshot"/> </div>
 <span>Chuchu Fan</span><i>MIT</i>
 </a></li>
