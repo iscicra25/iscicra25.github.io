@@ -8,6 +8,13 @@ title: "Organizers"
 <div class="index-key-right">
 <ul class="clear">
 
+<li> <a href="">
+<div> <img src="" class="speaker-mugshot"/> </div>
+<span>Pio Ong</span> </a>
+<tt> pioong@caltech.edu </tt>
+</li>
+
+
 <li> <a href="https://shumon0423.github.io/">
 <div> <img src="assets/fig/shumon.png" class="speaker-mugshot"/> </div>
 <span>Shumon Koga</span> </a>
@@ -25,6 +32,13 @@ title: "Organizers"
 <div> <img src="assets/fig/Atanasov.jpg" class="speaker-mugshot"/> </div>
 <span>Nikolay Atanasov</span></a>
 <tt> natanasov@ucsd.edu </tt>
+</li>
+
+
+<li> <a href="">
+<div> <img src="" class="speaker-mugshot"/> </div>
+<span>Dimitra Panagou</span> </a>
+<tt> panagou@umich.edu </tt>
 </li>
 
 </ul>
