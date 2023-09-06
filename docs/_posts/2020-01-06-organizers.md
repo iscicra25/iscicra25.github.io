@@ -25,7 +25,7 @@ title: "Organizers"
 <li> <a href="https://vikasdhiman.info">
 <div> <img src="assets/fig/vdhiman.jpg" class="speaker-mugshot"/> </div>
 <span>Vikas Dhiman</span> </a>
-<tt> vdhiman@ucsd.edu </tt>
+<tt> vikas.dhiman@maine.edu </tt>
 </li>
 
 <li> <a href="https://natanaso.github.io">
@@ -49,4 +49,4 @@ title: "Organizers"
 <div style="clear: both" ></div>
 
 ## Contact
-Should you have any questions, please do not hesitate to contact the organizers Vikas Dhiman (vdhiman@ucsd.edu) or Shumon Koga (skoga@ucsd.edu). Please include ``ICRA 2021 Workshop`` in the subject of the email. 
+Should you have any questions, please do not hesitate to contact the organizers Vikas Dhiman (vikas.dhiman@maine.edu) or Shumon Koga (skoga@ucsd.edu). Please include ``ICRA 2021 Workshop`` in the subject of the email. 
