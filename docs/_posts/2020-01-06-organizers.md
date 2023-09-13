@@ -8,8 +8,8 @@ title: "Organizers"
 <div class="index-key-right">
 <ul class="clear">
 
-<li> <a href="">
-<div> <img src="assets/fig/Pio Ong.png" class="speaker-mugshot"/> </div>
+<li> <a href="http://terrano.ucsd.edu/pio/">
+<div> <img src="assets/fig/Pio Ong.jpg" class="speaker-mugshot"/> </div>
 <span>Pio Ong</span> </a>
 <tt> pioong@caltech.edu </tt>
 </li>
@@ -35,7 +35,7 @@ title: "Organizers"
 </li>
 
 
-<li> <a href="">
+<li> <a href="http://www-personal.umich.edu/~dpanagou/">
 <div> <img src="assets/fig/DimitraPanagou.jpg" class="speaker-mugshot"/> </div>
 <span>Dimitra Panagou</span> </a>
 <tt> panagou@umich.edu </tt>
