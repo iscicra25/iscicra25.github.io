@@ -31,6 +31,13 @@ title: "Organizers"
 <tt> vikas.dhiman@maine.edu </tt>
 </li>
 
+<li> <a href="http://www.cs.cmu.edu/~yiweilyu/">
+<div> <img src="http://www.cs.cmu.edu/~yiweilyu/theme/images/yiweilyu.png" class="speaker-mugshot"/> </div>
+<span>Yiwei Lyu</span> </a>
+<div> Carnegie Mellon University</div>
+<tt> yiweilyu@andrew.cmu.edu </tt>
+</li>
+
 <li> <a href="https://natanaso.github.io">
 <div> <img src="assets/fig/Atanasov.jpg" class="speaker-mugshot"/> </div>
 <span>Nikolay Atanasov </span></a>
