@@ -50,7 +50,7 @@ title: "Organizers"
 <div> <img src="assets/fig/DimitraPanagou.jpg" class="profile-headshot"/> </div>
 <span>Dimitra Panagou </span> </a>
   <div>University of Michigan</div>
-<tt> panagou@umich.edu </tt>
+<tt> dpanagou@umich.edu </tt>
 </li>
 
 </ul>
