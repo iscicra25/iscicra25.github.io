@@ -61,4 +61,4 @@ title: "Organizers"
 <div style="clear: both" ></div>
 
 ## Contact
-Should you have any questions, please do not hesitate to contact the organizers Vikas Dhiman (vikas.dhiman@maine.edu) or Shumon Koga (shumon.sdr@gmail.com). Please include ``ICRA 2025 Workshop`` in the subject of the email. 
+Should you have any questions, please do not hesitate to contact the organizers Vikas Dhiman (vikas.dhiman@maine.edu). Please include ``ICRA 2025 Workshop`` in the subject of the email. 
