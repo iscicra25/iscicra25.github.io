@@ -1,3 +1,7 @@
+tt {
+    font-size: 80%;
+}
+
 body {
   padding-bottom: 50px;
   font-size: 15px;
@@ -168,5 +172,4 @@ ol li ol {
     .index-key .index-key-box .index-key-right ul li>a i{font-size: 14px;line-height: 21px;}
     .index-msg .wrap .index-msg-box .index-msg-left{width: 100%;order: 1;}
 }
-
 
