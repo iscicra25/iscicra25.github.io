@@ -40,6 +40,13 @@ Taekyung Kim </a>
 <tt>taekyung@umich.edu</tt>
 </li>
 
+<li> <a href="https://ataei67.github.io/">
+<div> <img src="/assets/fig/pc/masoud-ataei-maine.jpeg" class="profile-headshot"/> </div>
+Masoud Ataei</a>
+<div>University of Maine</div>
+<tt>masoud.ataei@maine.edu</tt>
+</li>
+
 </ul>
 </div>
 </div>
