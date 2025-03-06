@@ -6,8 +6,7 @@ image: assets/fig/icra-2025.jpg
 author:
   name: Vikas Dhiman
   email: wecacuee@github.com
-description: > # this means to ignore newlines until "show_excerpts:"
-  Coming soon
+logo: assets/fig/ICRA-ATL-logo.webp
 
 timezone: null
 lsi: false
