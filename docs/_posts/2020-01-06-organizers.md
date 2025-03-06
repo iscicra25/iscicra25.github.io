@@ -19,8 +19,8 @@ title: "Organizers"
 <li> <a href="https://shumon0423.github.io/">
 <div> <img src="assets/fig/shumon.png" class="profile-headshot"/> </div>
 <span>Shumon Koga </span> </a>
-<div>Honda Research</div>
-<tt> shumon.sdr@gmail.com </tt>
+<div>Kobe University</div>
+<tt>koga@harbor.kobe-u.ac.jp</tt>
 </li>
 
 
