@@ -47,6 +47,21 @@ Masoud Ataei</a>
 <tt>masoud.ataei@maine.edu</tt>
 </li>
 
+<li> <a href="https://thaipduong.github.io/">
+<div> <img src="/assets/fig/pc/thai-duong-rice.jpg" class="profile-headshot"/> </div>
+Thai Duong</a>
+<div>Rice University</div>
+<tt>thaiduong@rice.edu</tt>
+</li>
+
+
+<li> <a href="https://scholar.google.com/citations?user=PKenJCsAAAAJ">
+<div> <img src="/assets/fig/pc/steven-adams-tudelft.webp" class="profile-headshot"/> </div>
+Steven Adams</a>
+<div>TU Delft</div>
+<tt>S.J.L.Adams@tudelft.nl</tt>
+</li>
+
 </ul>
 </div>
 </div>
