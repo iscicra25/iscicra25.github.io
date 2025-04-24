@@ -62,6 +62,14 @@ Steven Adams</a>
 <tt>S.J.L.Adams@tudelft.nl</tt>
 </li>
 
+
+<li> <a href="https://wenlixiao-cs.github.io/">
+<div> <img src="/assets/fig/pc/wenly-xiao-cmu.jpeg" class="profile-headshot"/> </div>
+Wenli Xiao</a>
+<div>Carnigie Mellon University</div>
+<tt>randyxiao64@gmail.com</tt>
+</li>
+
 </ul>
 </div>
 </div>
